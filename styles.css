@@ -1,41 +1,51 @@
-/* styles.css */
-
 /* General body styling */
 body {
   font-family: Arial, sans-serif;
-  background-color: #2a2a72; /* Dark background */
-  color: white;
-  text-align: center;
   margin: 0;
   padding: 0;
+  background-color: #34495e; /* Darker background for forest feel */
+  color: white;
+  text-align: center;
 }
 
-/* Header styling */
 h1 {
   font-size: 36px;
   margin-top: 50px;
+  color: #f39c12; /* Golden text for the title */
 }
 
-/* Container for the images and text */
-.container {
-  margin-top: 40px;
+/* Story container */
+.story-container {
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  padding: 30px;
+  width: 80%;
+  max-width: 700px;
+  margin: 40px auto;
+  border-radius: 10px;
 }
 
-/* Styling for the images */
-.image {
-  width: 300px;
-  margin: 20px;
-}
-
-/* Text styling */
-.text {
+/* Story text styling */
+.story-text {
   font-size: 18px;
   line-height: 1.6;
+  color: #ecf0f1; /* Light gray text for readability */
   margin-top: 20px;
-  color: #f9a826; /* Golden color */
 }
 
-/* Styling for the button */
+/* Styling for images */
+.image-container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.tree-speaking-image {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+/* Button styling */
 .top-right-btn {
   position: fixed;
   top: 20px;
@@ -47,16 +57,14 @@ h1 {
   font-size: 16px;
   border-radius: 5px;
   cursor: pointer;
-  text-align: center;
 }
 
-/* Remove default link styles inside the button */
 .top-right-btn a {
   color: white;
   text-decoration: none;
 }
 
-/* Hover effect for the button */
+/* Hover effect for button */
 .top-right-btn:hover {
   background-color: #f59e00; /* Darker golden color */
 }
