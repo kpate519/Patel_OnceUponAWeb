@@ -65,3 +65,10 @@ h1 {
 .top-right-btn:hover {
   background-color: #f59e00; /* Darker golden color on hover */
 }
+
+.forest-image, .tree-image {
+  max-width: 100%; /* Makes sure the image won't exceed the page's width */
+  height: auto;    /* Keeps the aspect ratio intact */
+  display: block;  /* Removes any potential spacing below the image */
+  margin: 0 auto;  /* Centers the images horizontally */
+}
