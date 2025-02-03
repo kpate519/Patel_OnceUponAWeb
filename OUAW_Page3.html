@@ -5,9 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Page 3 Whiskers' Journey Through the Forest</title>
   <style>
+    /* General body and layout styles */
     body {
-
-      
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
@@ -22,6 +21,7 @@
       color: #f39c12; /* Golden text for the title */
     }
 
+    /* Story container styles */
     .story-container {
       background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
       padding: 30px;
@@ -38,17 +38,47 @@
       margin-top: 20px;
     }
 
+    /* Styling for image containers */
     .image-container {
       margin-top: 30px;
       text-align: center;
     }
 
-    .whiskers-image, .forest-image, .owl-image, .path-image {
+    /* Ensure images are responsive */
+    .whiskers-image, .owl-image, .path-image {
       width: 100%;
-      max-width: 600px;
+      max-width: 600px; /* Maximum width of images */
       margin-top: 20px;
       border-radius: 8px;
+      display: block; /* Ensure images behave like block-level elements */
+      margin-left: auto;
+      margin-right: auto; /* Center the images horizontally */
     }
+
+    /* Button styles */
+    .top-right-btn {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background-color: #f39c12;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .top-right-btn a {
+      text-decoration: none;
+      color: white;
+    }
+
+    .top-right-btn:hover {
+      background-color: #e67e22; /* Darker shade on hover */
+    }
+
+    
   </style>
 </head>
 <body>
@@ -64,7 +94,6 @@
       <img class="whiskers-image" src="https://i.pinimg.com/736x/05/25/ae/0525ae958ab348d0e87c984a01c9aad9.jpg" alt="Whiskers setting off into the forest">
     </div>
 
-
     <!-- Image of an owl hooting in the forest -->
     <div class="image-container">
       <img class="owl-image" src="https://th.bing.com/th/id/OIP.A872slNWStEWPPMP4I_DIAHaEK?rs=1&pid=ImgDetMain" alt="Owl hooting in the forest">
@@ -75,12 +104,15 @@
       <img class="path-image" src="https://img.freepik.com/premium-photo/photo-ancient-stone-pathway-winding-through-dense-forest_1060272-34911.jpg" alt="Narrow winding forest path lined with trees">
     </div>
   </div>
+
+  <!-- Navigation button -->
   <button class="top-right-btn">
     <a href="OUAW_Page4.html">Next Page</a>
   </button>
 
+  <!-- Background audio -->
   <audio autoplay loop>
-  <source src="crescent-moon-173121.mp3" type="audio/mp3">
-</audio>
+    <source src="crescent-moon-173121.mp3" type="audio/mp3">
+  </audio>
 </body>
 </html>
