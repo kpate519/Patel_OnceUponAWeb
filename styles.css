@@ -1,0 +1,62 @@
+/* styles.css */
+
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #2a2a72; /* Dark background */
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styling */
+h1 {
+  font-size: 36px;
+  margin-top: 50px;
+}
+
+/* Container for the images and text */
+.container {
+  margin-top: 40px;
+}
+
+/* Styling for the images */
+.image {
+  width: 300px;
+  margin: 20px;
+}
+
+/* Text styling */
+.text {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 20px;
+  color: #f9a826; /* Golden color */
+}
+
+/* Styling for the button */
+.top-right-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #f9a826; /* Golden color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Remove default link styles inside the button */
+.top-right-btn a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Hover effect for the button */
+.top-right-btn:hover {
+  background-color: #f59e00; /* Darker golden color */
+}
